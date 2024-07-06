@@ -1,0 +1,53 @@
+{
+    "name": "uikit",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "lint:js": "eslint --ext .js,.jsx,.ts,.tsx .",
+        "lint:js:fix": "npm run lint:js -- --fix",
+        "lint:styles": "cross-env stylelint '**/{styles,src}/**/*.scss'",
+        "lint:styles:fix": "cross-env npm run lint:styles -- --fix",
+        "lint:prettier": "cross-env prettier --check '**/*.md'",
+        "lint:prettier:fix": "cross-env prettier --write '**/*.md'",
+        "lint": "run-p lint:*",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@commitlint/cli": "^19.3.0",
+        "@commitlint/config-conventional": "^19.2.2",
+        "@kochurko/eslint-config": "^0.9.1",
+        "@kochurko/prettier-config": "^0.9.1",
+        "@kochurko/stylelint-config": "^0.9.1",
+        "@kochurko/ts-config": "^0.9.4",
+        "cross-env": "^7.0.3",
+        "eslint": "^8.57.0",
+        "eslint-plugin-testing-library": "^6.2.0",
+        "husky": "^9.0.11",
+        "lerna": "^8.1.6",
+        "nano-staged": "^0.8.0",
+        "postcss": "^8.4.39",
+        "prettier": "^3.3.2",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "sass": "^1.77.6",
+        "sass-loader": "^14.2.1",
+        "stylelint": "^16.6.1",
+        "stylelint-use-logical": "^2.1.2",
+        "typescript": "^5.5.3"
+    },
+    "nano-staged": {
+        "*.{scss}": [
+            "stylelint --fix --quiet"
+        ],
+        "*.{js,jsx,ts,tsx}": [
+            "eslint --fix --quiet"
+        ],
+        "*.{md,mdx}": [
+            "prettier --write"
+        ]
+    }
+}

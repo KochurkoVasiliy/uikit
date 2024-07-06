@@ -1,0 +1,42 @@
+{
+    "extends": [
+        "@kochurko/eslint-config",
+        "@kochurko/eslint-config/client",
+        "@kochurko/eslint-config/prettier",
+        "@kochurko/eslint-config/import",
+    ],
+    "root": true,
+    "overrides": [
+        {
+            "files": ["**/__tests__/**/*.[jt]s?(x)", "**/?(*.)+(spec|test).[jt]s?(x)"],
+            "env": {
+                "node": true,
+                "jest": true,
+            },
+            "extends": ["plugin:testing-library/react"],
+            "rules": {
+                "jsx-a11y/no-static-element-interactions": "off",
+            },
+            "excludedFiles": "**/__tests__/**/*.visual.test.*",
+        },
+        {
+            "files": ["**/__stories__/**/*.[jt]s?(x)"],
+            "rules": {
+                "no-console": "off",
+            },
+        },
+        {
+            "files": ["**/*.js", "!src/**/*"],
+            "env": {
+                "node": true,
+            },
+        },
+        {
+            "files": ["**/__tests__/**/*.visual.test.*"],
+            "env": {
+                "node": true,
+                "jest": true,
+            },
+        },
+    ],
+}
