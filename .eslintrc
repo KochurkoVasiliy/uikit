@@ -11,7 +11,6 @@
             "files": ["**/__tests__/**/*.[jt]s?(x)", "**/?(*.)+(spec|test).[jt]s?(x)"],
             "env": {
                 "node": true,
-                "jest": true,
             },
             "extends": ["plugin:testing-library/react"],
             "rules": {
@@ -35,7 +34,6 @@
             "files": ["**/__tests__/**/*.visual.test.*"],
             "env": {
                 "node": true,
-                "jest": true,
             },
         },
     ],
