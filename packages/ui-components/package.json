@@ -22,23 +22,45 @@
         "url": "git+https://github.com/KochurkoVasiliy/uikit.git"
     },
     "scripts": {
-        "test": "node ./__tests__/@kochurko/ui-components.test.js"
+        "test": "node ./__tests__/@kochurko/ui-components.test.js",
+        "storybook": "storybook dev -p 6006",
+        "build-storybook": "storybook build"
     },
     "bugs": {
         "url": "https://github.com/KochurkoVasiliy/uikit/issues"
     },
     "devDependencies": {
+        "@bem-react/classname": "^1.6.0",
+        "@chromatic-com/storybook": "1.6.1",
+        "@storybook/addon-docs": "^8.1.11",
+        "@storybook/addon-essentials": "^8.1.11",
+        "@storybook/addon-interactions": "^8.1.11",
+        "@storybook/addon-links": "^8.1.11",
+        "@storybook/addon-onboarding": "^8.1.11",
+        "@storybook/blocks": "^8.1.11",
+        "@storybook/preset-scss": "^1.0.3",
+        "@storybook/react": "^8.1.11",
+        "@storybook/react-vite": "^8.1.11",
+        "@storybook/test": "^8.1.11",
         "gulp": "^5.0.0",
         "gulp-cli": "^3.0.0",
         "gulp-dart-sass": "^1.1.0",
         "gulp-replace": "^1.1.4",
         "gulp-typescript": "6.0.0-alpha.1",
+        "jest-transform-css": "^6.0.1",
+        "jsdom": "^24.1.0",
         "react": "^18.3.1",
         "react-dom": "^18.3.1",
-        "typescript": "^5.5.3"
+        "storybook": "^8.1.11",
+        "ts-jest": "^29.1.5",
+        "typescript": "^5.5.3",
+        "vitest": "^1.6.0"
     },
     "peerDependencies": {
         "react": "^18.3.1",
         "react-dom": "^18.3.1"
+    },
+    "dependencies": {
+        "tslib": "^2.6.3"
     }
 }
