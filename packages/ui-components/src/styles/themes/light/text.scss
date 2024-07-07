@@ -1,0 +1,22 @@
+@mixin globals-colors-text-light {
+    --global-color-text-primary: var(--global-color-text-primary-dark);
+    --global-color-text-secondary: var(--global-color-text-secondary-dark);
+    --global-color-text-hint: var(--global-color-text-hint-dark);
+
+    --global-color-text-primary-light: var(--global-color-primitive-cool-gray-0);
+    --global-color-text-secondary-light: var(--global-color-primitive-cool-gray-300);
+    --global-color-text-hint-light: var(--global-color-primitive-cool-gray-800);
+
+    --global-color-text-primary-dark: var(--global-color-primitive-gray-1000);
+    --global-color-text-secondary-dark: var(--global-color-primitive-cool-gray-600);
+    --global-color-text-hint-dark: var(--global-color-primitive-cool-gray-300);
+
+    --global-color-text-primary-inverted: var(--global-color-text-primary-light);
+    --global-color-text-secondary-inverted: var(--global-color-text-secondary-light);
+    --global-color-text-hint-inverted: var(--global-color-text-hint-light);
+
+    --global-color-text-accent: var(--global-color-primitive-blue-600);
+    --global-color-text-accent-heavy: var(--global-color-primitive-blue-700);
+    --global-color-text-negative: var(--global-color-primitive-red-600);
+    --global-color-text-negative-heavy: var(--global-color-primitive-red-700);
+}

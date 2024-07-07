@@ -1,0 +1,7 @@
+@import "./primitives.scss";
+@import "./text.scss";
+
+@mixin globals-colors-light {
+    @include globals-colors-primitives-light;
+    @include globals-colors-text-light;
+}

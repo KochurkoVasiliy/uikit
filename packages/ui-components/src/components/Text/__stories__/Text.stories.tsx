@@ -109,8 +109,7 @@ const WithCustomElementRenderStory = () => {
             <Text as="code">
                 {'<Text as={Button} size={\'m\'} view="action" color="danger-heavy" variant="header-1">Hello World!</Text>'}
             </Text>
-
-            <Text size={"m"} view="action" color="negative-heavy" variant="header-1">
+            <Text color="negative-heavy" variant="header-1">
                 Hello World!
             </Text>
         </>

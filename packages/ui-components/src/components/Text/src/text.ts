@@ -28,7 +28,7 @@ export interface TextBaseProps {
 }
 
 export const text = (
-    { variant = "body-1", ellipsis, ellipsisLines, whiteSpace, wordBreak }: TextProps,
+    { variant = "body-1", ellipsis, ellipsisLines, whiteSpace, wordBreak }: TextBaseProps,
     className?: string,
 ) =>
     b(

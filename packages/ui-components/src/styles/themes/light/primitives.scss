@@ -1,0 +1,97 @@
+@mixin globals-colors-primitives-light {
+    --global-color-primitive-gray-0: rgba(255, 255, 255, 1);
+    --global-color-primitive-gray-100: rgba(253, 253, 253, 1);
+    --global-color-primitive-gray-200: rgba(246, 246, 246, 1);
+    --global-color-primitive-gray-300: rgba(230, 230, 230, 1);
+    --global-color-primitive-gray-400: rgba(213, 213, 213, 1);
+    --global-color-primitive-gray-500: rgba(177, 177, 177, 1);
+    --global-color-primitive-gray-600: rgba(144, 144, 144, 1);
+    --global-color-primitive-gray-700: rgba(109, 109, 109, 1);
+    --global-color-primitive-gray-800: rgba(70, 70, 70, 1);
+    --global-color-primitive-gray-900: rgba(34, 34, 34, 1);
+    --global-color-primitive-gray-1000: rgba(0, 0, 0, 1);
+
+    --global-color-primitive-blue-0: rgba(232, 243, 255, 1);
+    --global-color-primitive-blue-100: rgba(194, 219, 251, 1);
+    --global-color-primitive-blue-200: rgba(157, 192, 247, 1);
+    --global-color-primitive-blue-300: rgba(123, 165, 243, 1);
+    --global-color-primitive-blue-400: rgba(94, 138, 240, 1);
+    --global-color-primitive-blue-500: rgba(70, 113, 236, 1);
+    --global-color-primitive-blue-600: rgba(51, 86, 231, 1);
+    --global-color-primitive-blue-700: rgba(32, 75, 197, 1);
+    --global-color-primitive-blue-800: rgba(19, 63, 162, 1);
+    --global-color-primitive-blue-900: rgba(11, 52, 127, 1);
+    --global-color-primitive-blue-1000: rgba(6, 40, 93, 1);
+    --global-color-primitive-blue-1100: rgba(3, 27, 58, 1);
+    --global-color-primitive-blue-1200: rgba(1, 12, 23, 1);
+
+    --global-color-primitive-red-0: rgba(255, 232, 232, 1);
+    --global-color-primitive-red-100: rgba(254, 196, 195, 1);
+    --global-color-primitive-red-200: rgba(254, 161, 159, 1);
+    --global-color-primitive-red-300: rgba(253, 128, 126, 1);
+    --global-color-primitive-red-400: rgba(251, 99, 96, 1);
+    --global-color-primitive-red-500: rgba(248, 75, 71, 1);
+    --global-color-primitive-red-600: rgba(245, 56, 51, 1);
+    --global-color-primitive-red-700: rgba(239, 41, 35, 1);
+    --global-color-primitive-red-800: rgba(230, 30, 22, 1);
+    --global-color-primitive-red-900: rgba(211, 24, 12, 1);
+    --global-color-primitive-red-1000: rgba(173, 21, 5, 1);
+    --global-color-primitive-red-1100: rgba(131, 19, 2, 1);
+    --global-color-primitive-red-1200: rgba(94, 16, 0, 1);
+
+    --global-color-primitive-green-0: rgba(205, 247, 224, 1);
+    --global-color-primitive-green-100: rgba(169, 244, 201, 1);
+    --global-color-primitive-green-200: rgba(134, 236, 178, 1);
+    --global-color-primitive-green-300: rgba(104, 221, 155, 1);
+    --global-color-primitive-green-400: rgba(80, 201, 132, 1);
+    --global-color-primitive-green-500: rgba(60, 174, 110, 1);
+    --global-color-primitive-green-600: rgba(44, 144, 88, 1);
+    --global-color-primitive-green-700: rgba(32, 114, 68, 1);
+    --global-color-primitive-green-800: rgba(23, 89, 53, 1);
+    --global-color-primitive-green-900: rgba(17, 70, 42, 1);
+    --global-color-primitive-green-1000: rgba(14, 57, 35, 1);
+    --global-color-primitive-green-1100: rgba(11, 49, 31, 1);
+    --global-color-primitive-green-1200: rgba(11, 46, 29, 1);
+
+    --global-color-primitive-yellow-0: rgba(250, 240, 150, 1);
+    --global-color-primitive-yellow-100: rgba(249, 236, 126, 1);
+    --global-color-primitive-yellow-200: rgba(248, 232, 103, 1);
+    --global-color-primitive-yellow-300: rgba(247, 226, 81, 1);
+    --global-color-primitive-yellow-400: rgba(245, 217, 62, 1);
+    --global-color-primitive-yellow-500: rgba(242, 207, 46, 1);
+    --global-color-primitive-yellow-600: rgba(238, 194, 33, 1);
+    --global-color-primitive-yellow-700: rgba(231, 180, 22, 1);
+    --global-color-primitive-yellow-800: rgba(219, 164, 14, 1);
+    --global-color-primitive-yellow-900: rgba(196, 141, 8, 1);
+    --global-color-primitive-yellow-1000: rgba(150, 105, 3, 1);
+    --global-color-primitive-yellow-1100: rgba(98, 67, 1, 1);
+    --global-color-primitive-yellow-1200: rgba(54, 37, 0, 1);
+
+    --global-color-primitive-cool-gray-0: rgba(247, 249, 255, 1);
+    --global-color-primitive-cool-gray-100: rgba(222, 225, 236, 1);
+    --global-color-primitive-cool-gray-200: rgba(197, 202, 216, 1);
+    --global-color-primitive-cool-gray-300: rgba(173, 180, 197, 1);
+    --global-color-primitive-cool-gray-400: rgba(151, 159, 178, 1);
+    --global-color-primitive-cool-gray-500: rgba(130, 139, 158, 1);
+    --global-color-primitive-cool-gray-600: rgba(110, 120, 139, 1);
+    --global-color-primitive-cool-gray-700: rgba(91, 101, 120, 1);
+    --global-color-primitive-cool-gray-800: rgba(73, 84, 100, 1);
+    --global-color-primitive-cool-gray-900: rgba(57, 66, 81, 1);
+    --global-color-primitive-cool-gray-1000: rgba(41, 50, 62, 1);
+    --global-color-primitive-cool-gray-1100: rgba(27, 34, 42, 1);
+    --global-color-primitive-cool-gray-1200: rgba(14, 18, 23, 1);
+
+    --global-color-primitive-indigo-0: rgba(237, 238, 255, 1);
+    --global-color-primitive-indigo-100: rgba(209, 211, 254, 1);
+    --global-color-primitive-indigo-200: rgba(182, 185, 252, 1);
+    --global-color-primitive-indigo-300: rgba(156, 159, 249, 1);
+    --global-color-primitive-indigo-400: rgba(133, 137, 245, 1);
+    --global-color-primitive-indigo-500: rgba(113, 118, 240, 1);
+    --global-color-primitive-indigo-600: rgba(96, 101, 232, 1);
+    --global-color-primitive-indigo-700: rgba(81, 86, 221, 1);
+    --global-color-primitive-indigo-800: rgba(68, 73, 206, 1);
+    --global-color-primitive-indigo-900: rgba(56, 61, 186, 1);
+    --global-color-primitive-indigo-1000: rgba(45, 49, 160, 1);
+    --global-color-primitive-indigo-1100: rgba(35, 38, 131, 1);
+    --global-color-primitive-indigo-1200: rgba(26, 28, 99, 1);
+}

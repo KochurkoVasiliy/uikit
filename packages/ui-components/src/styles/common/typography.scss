@@ -1,0 +1,60 @@
+@mixin globals-typography {
+    --global-font-family-sans: "Inter", sans-serif;
+    --global-font-family-mono: "Menlo", monospace;
+
+    --global-text-display-4-font-size: 56;
+    --global-text-display-4-line-height: 72;
+
+    --global-text-display-3-font-size: 48;
+    --global-text-display-3-line-height: 52;
+
+    --global-text-display-2-font-size: 40;
+    --global-text-display-2-line-height: 48;
+
+    --global-text-display-1-font-size: 32;
+    --global-text-display-1-line-height: 40;
+
+    --global-text-header-3-font-size: 28;
+    --global-text-header-3-line-height: 36;
+
+    --global-text-header-2-font-size: 24;
+    --global-text-header-2-line-height: 28;
+
+    --global-text-header-1-font-size: 20;
+    --global-text-header-1-line-height: 24;
+
+    --global-text-title-3-font-size: 18;
+    --global-text-title-3-line-height: 24;
+
+    --global-text-title-2-font-size: 16;
+    --global-text-title-2-line-height: 20;
+
+    --global-text-title-1-font-size: 14;
+    --global-text-title-1-line-height: 18;
+
+    --global-text-body-3-font-size: 18;
+    --global-text-body-3-line-height: 24;
+
+    --global-text-body-2-font-size: 16;
+    --global-text-body-2-line-height: 20;
+
+    --global-text-body-1-font-size: 14;
+    --global-text-body-1-line-height: 18;
+
+    --global-text-caption-2-font-size: 12;
+    --global-text-caption-2-line-height: 16;
+
+    --global-text-caption-1-font-size: 10;
+    --global-text-caption-1-line-height: 12;
+
+    --global-text-display-font-weight: 600;
+    --global-text-header-font-weight: 600;
+    --global-text-title-font-weight: 600;
+    --global-text-body-font-weight: 500;
+    --global-text-caption-font-weight: 500;
+
+    font-family: var(--global-font-family-sans);
+    font-size: var(--global-text-body-1-font-size);
+    line-height: var(--global-text-body-1-line-height);
+    font-weight: var(--global-text-body-font-weight);
+}

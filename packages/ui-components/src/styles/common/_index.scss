@@ -1,0 +1,5 @@
+@use "./typography.scss";
+
+@mixin globals-common-theme {
+    @include typography.globals-typography;
+}
